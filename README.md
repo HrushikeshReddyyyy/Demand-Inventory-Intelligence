@@ -24,14 +24,6 @@ This project utilizes several Python libraries for data manipulation, machine le
 - **Streamlit**: Interactive web app for model visualization
 - **Langchain**: For language models (optional, if using LLM-based analysis)
 
-### Requirements
-
-To run this project, you'll need to install the necessary libraries. You can install them using pip:
-
-```bash
-pip install pandas matplotlib prophet streamlit pyngrok langchain tensorflow shap scikit-learn bayesian-optimization transformers
-Make sure you have a compatible Python version (preferably 3.x) and the necessary dependencies installed.
-
 Dataset
 The dataset used in this project is demand_forecasting.csv, which contains the following columns:
 
@@ -62,4 +54,24 @@ Anomaly Detection: Flags sales data that deviates significantly from the forecas
 
 Optimal Order Quantity (EOQ): Calculates the optimal order quantity using the forecasted demand and given cost parameters.
 
-You can run the project by executing the Demand-Inventory-Intelligence.ipynb notebook or using any Python IDE. Follow the instructions within the code cells.
+Results
+Prophet Model: Predicts future sales based on historical trends and seasonality.
+
+LSTM Model: Forecasts future sales using deep learning techniques.
+
+Anomaly Detection: Identifies any significant deviations in sales, which can be flagged for further review.
+
+EOQ Calculation: Computes the optimal order quantity to minimize inventory costs.
+
+
+### Requirements
+
+To run this project, you'll need to install the necessary libraries. You can install them using pip:
+
+```bash
+pip install pandas matplotlib prophet streamlit pyngrok langchain tensorflow shap scikit-learn bayesian-optimization transformers
+
+
+
+
+
