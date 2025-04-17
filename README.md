@@ -1,8 +1,6 @@
 # Demand-Inventory-Intelligence
 
 
-# Demand Inventory Intelligence
-
 This project provides a demand forecasting solution for inventory management using historical sales data. The model uses time-series analysis, machine learning, and anomaly detection techniques to predict future demand and detect anomalies.
 
 ## Project Overview
